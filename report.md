@@ -1,14 +1,21 @@
-Controlled Assessment Report
+#Controlled Assessment Report
 
-Task 1 -
+##Task 1 -
 
-Design
+###Design
+
 The task was to create a currency converter that -
-a) Has exchange rates that can be regularly changed by the user. b) User should be able to enter an amount, select chosen currency, and the currency to convert it into. c) Figure shown should be to two decimal places.
+
+a) Has exchange rates that can be regularly changed by the user. 
+
+b) User should be able to enter an amount, select chosen currency, and the currency to convert it into. 
+
+c) Figure shown should be to two decimal places.
 
 The Currencies required to convert are: GBP (£) Euro (€) USD ($) and JPY (¥).
 
 Here is the PSEUDOCODE for the first task -
+```
 #BEGIN
 #INPUT currency to be converted, currency converting to (Pound Sterling/Euro/US Dollar/Japanese Yen)
 #ASSIGN to variables: c_type1, c_type2
@@ -22,7 +29,7 @@ Here is the PSEUDOCODE for the first task -
 #    IDENTIFY Pound Sterling as c_type1 or c_type2
 #    CHANGE this value to or from Pound Sterling
 #    RETURN int of c_type2
-
+```
     
 
 
